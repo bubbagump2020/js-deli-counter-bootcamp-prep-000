@@ -13,16 +13,16 @@ function nowServing(katzDeliLine){
   }
 }
 
-function currentLine(katzDeliLine){
-  var currentLine = []
-  if (katzDeliLine.length === 0){
-    return "The line is currently empty."
-  } else {
-    for (var i = 1; i < katzDeliLine.length; i++){
-      currentLine.push(i)
-    }
-    return `The line is currently: ${currentLine}. ${katzDeliLine.join(", ")}`
+function currentLine(line) {
+  if(line.length === 0) {
+    console.log("The line is currently empty.");
   }
-  
-  
+  var lines = [];
+
+   else{
+  for (var i = 0, i < line.length, i++) {
+    lines.push(i+1 "." + line[1]);
+  }
+  console.log("The line is currently:" + lines)
+}
 }
