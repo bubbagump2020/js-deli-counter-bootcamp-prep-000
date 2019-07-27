@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
     for (var i = 1; i < katzDeliLine.length; i++){
       currentLine.push(i)
     }
-    return currentLine.concat
+    return `The line is currently: ${currentLine.concat(kazDeliLin.join(", "))}`
   }
   
   
